@@ -10,14 +10,14 @@ from bluerov2_bridge.services import ClientProxies
 import signal
 
 map_axes = {
-    "LX": 0,
-    "LY": 1,
-    "LT": 2,
-    "RX": 3,
-    "RY": 4,
-    "RT": 5,
-    "DX": 6,
-    "DY": 7,
+    "LX": 0, # Horizontal axis left joystick
+    "LY": 1, # Vertical axis left joystick
+    "LT": 2, # Left trigger
+    "RX": 3, # Horizontal axis right joystick
+    "RY": 4, # Verticak axis right joystick
+    "RT": 5, # Right trigger
+    "DX": 6, # Horizontal axis directional pad
+    "DY": 7, # Vertical axis directional pad
 }
 
 map_buttons = {
@@ -66,12 +66,12 @@ class Teleop(Node, ClientProxies):
 
         # Button ID to function mapping
         self.fcns = {
-            "0": self._mode_poshold,  # A
-            "1": self._mode_althold,  # B
-            "2": self._mode_stabilize,  # X
-            "3": self._mode_manual,  # Y
+            "0": self._notused,  # A
+            "1": self._notused,  # B
+            "2": self._notused,  # X
+            "3": self._notused,  # Y
             "4": self._notused,  # LB
-            "5": self._toggle_lights,  # RB
+            "5": self._notused,  # RB
             "6": self._disarm,  # Back
             "7": self._arm,  # Start
             "8": self._notused,  # Logi
@@ -94,17 +94,21 @@ class Teleop(Node, ClientProxies):
     def _notused(self):
         print("This button is not used")
 
-    def _toggle_lights(self):
-        self.pwm_lights += 200
-        if self.pwm_lights > 1900:
-            self.pwm_lights = 1100
-        print("Lights PWM:", self.pwm_lights)
+    # def _toggle_lights(self):
+    #     self.pwm_lights += 200
+    #     if self.pwm_lights > 1900:
+    #         self.pwm_lights = 1100
+    #     print("Lights PWM:", self.pwm_lights)
 
     def calc_pwm(self, val, pwm_min=1100, pwm_max=1900):
         """returns pwm value from -1 to 1 input"""
         mult = (pwm_max - pwm_min) / 2
         base = pwm_min + mult
-        return int(base + mult * val)
+        print("mult = " + str(mult))
+        print("base = " + str(base))
+        print("pwm = " + str(int(base + mult * val)))
+        # return int(base + mult * val)
+        return 1500
 
     def _callback(self, msg):
         # Handling button presses. NOTE: ROS2 joy node publishes continuosly, unlike ROS1.
