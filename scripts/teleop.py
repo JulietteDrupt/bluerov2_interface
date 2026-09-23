@@ -100,18 +100,15 @@ class Teleop(Node, ClientProxies):
     #         self.pwm_lights = 1100
     #     print("Lights PWM:", self.pwm_lights)
 
-    def calc_pwm(self, val, pwm_min=1100, pwm_max=1900):
+    def calc_pwm(self, val, pwm_min=1100, pwm_max=1900, gain=0.1):
         """returns pwm value from -1 to 1 input"""
-        mult = (pwm_max - pwm_min) / 2
-        base = pwm_min + mult
-        print("mult = " + str(mult))
-        print("base = " + str(base))
-        print("pwm = " + str(int(base + mult * val)))
-        # return int(base + mult * val)
-        return 1500
+        mult = (pwm_max - pwm_min) / 2 # PWM half range
+        base = pwm_min + mult # Idle PWM value
+        pwm = int(base + gain * mult * val) # PWM command
+        return pwm
 
     def _callback(self, msg):
-        # Handling button presses. NOTE: ROS2 joy node publishes continuosly, unlike ROS1.
+        # Handling button presses. NOTE: ROS2 joy node publishes continuously, unlike ROS1.
         for k in range(0, len(msg.buttons)):
             # Pressed state
             if msg.buttons[k] and not self.buttons[k]:
