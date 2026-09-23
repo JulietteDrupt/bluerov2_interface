@@ -1,0 +1,206 @@
+[0.007s] Invoking command in '/home/ju/Documents/BlueROV/bluerov2_interface/build/bluerov2_interface': CMAKE_PREFIX_PATH=/home/ju/ros2_ws/install/ueye_cam:/home/ju/ros2_ws/install/cola2_stonefish:/home/ju/ros2_ws/install/stonefish_ros2:/opt/ros/jazzy:/home/ju/ros2_ws/install/cola2_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake /home/ju/Documents/BlueROV/bluerov2_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface
+[0.019s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.139s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.145s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.163s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.168s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.174s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.182s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.221s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.222s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.267s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.305s] -- Found rclpy: 7.1.3 (/opt/ros/jazzy/share/rclpy/cmake)
+[0.305s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.310s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.665s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.077s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.233s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.235s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[1.323s] -- Found PythonExtra: /home/ju/.venv/bin/python3  
+[1.684s] -- Found Python3: /home/ju/.venv/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[1.708s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.730s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.731s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/ju/Documents/BlueROV/bluerov2_interface/build/bluerov2_interface/rosidl_generator_c>;$<BUILD_INTERFACE:/home/ju/Documents/BlueROV/bluerov2_interface/build/bluerov2_interface/rosidl_typesupport_fastrtps_c>;$<BUILD_INTERFACE:/home/ju/Documents/BlueROV/bluerov2_interface/build/bluerov2_interface/rosidl_generator_cpp>;$<BUILD_INTERFACE:/home/ju/Documents/BlueROV/bluerov2_interface/build/bluerov2_interface/rosidl_typesupport_fastrtps_cpp>;$<BUILD_INTERFACE:/home/ju/Documents/BlueROV/bluerov2_interface/build/bluerov2_interface/rosidl_typesupport_introspection_c>;$<BUILD_INTERFACE:/home/ju/Documents/BlueROV/bluerov2_interface/build/bluerov2_interface/rosidl_typesupport_introspection_cpp>;/home/ju/Documents/BlueROV/bluerov2_interface/build/bluerov2_interface/rosidl_generator_c;/home/ju/Documents/BlueROV/bluerov2_interface/build/bluerov2_interface/rosidl_generator_py
+[1.731s] -- Configured cppcheck exclude dirs and/or files: 
+[1.732s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.732s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.734s] -- Added test 'lint_cmake' to check CMake code style
+[1.735s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.740s] -- Added test 'uncrustify' to check C / C++ code style
+[1.741s] -- Configured uncrustify additional arguments: 
+[1.742s] -- Added test 'xmllint' to check XML markup files
+[1.745s] -- Configuring done (1.7s)
+[1.766s] -- Generating done (0.0s)
+[1.773s] -- Build files have been written to: /home/ju/Documents/BlueROV/bluerov2_interface/build/bluerov2_interface
+[1.782s] Invoked command in '/home/ju/Documents/BlueROV/bluerov2_interface/build/bluerov2_interface' returned '0': CMAKE_PREFIX_PATH=/home/ju/ros2_ws/install/ueye_cam:/home/ju/ros2_ws/install/cola2_stonefish:/home/ju/ros2_ws/install/stonefish_ros2:/opt/ros/jazzy:/home/ju/ros2_ws/install/cola2_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake /home/ju/Documents/BlueROV/bluerov2_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface
+[1.783s] Invoking command in '/home/ju/Documents/BlueROV/bluerov2_interface/build/bluerov2_interface': CMAKE_PREFIX_PATH=/home/ju/ros2_ws/install/ueye_cam:/home/ju/ros2_ws/install/cola2_stonefish:/home/ju/ros2_ws/install/stonefish_ros2:/opt/ros/jazzy:/home/ju/ros2_ws/install/cola2_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --build /home/ju/Documents/BlueROV/bluerov2_interface/build/bluerov2_interface -- -j22 -l22
+[1.821s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[1.827s] [  2%] Built target ament_cmake_python_symlink_bluerov2_interface
+[1.831s] [  2%] Built target ament_cmake_python_symlink_bluerov2_bridge
+[1.949s] [  2%] Built target bluerov2_interface__rosidl_generator_type_description
+[1.957s] running egg_info
+[1.957s] running egg_info
+[1.960s] [  5%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.965s] creating bluerov2_bridge.egg-info
+[1.965s] writing bluerov2_bridge.egg-info/PKG-INFO
+[1.966s] writing dependency_links to bluerov2_bridge.egg-info/dependency_links.txt
+[1.966s] writing top-level names to bluerov2_bridge.egg-info/top_level.txt
+[1.966s] writing manifest file 'bluerov2_bridge.egg-info/SOURCES.txt'
+[1.966s] creating bluerov2_interface.egg-info
+[1.966s] writing bluerov2_interface.egg-info/PKG-INFO
+[1.967s] writing dependency_links to bluerov2_interface.egg-info/dependency_links.txt
+[1.967s] writing top-level names to bluerov2_interface.egg-info/top_level.txt
+[1.967s] writing manifest file 'bluerov2_interface.egg-info/SOURCES.txt'
+[1.968s] [  8%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.989s] reading manifest file 'bluerov2_interface.egg-info/SOURCES.txt'
+[1.989s] writing manifest file 'bluerov2_interface.egg-info/SOURCES.txt'
+[1.991s] reading manifest file 'bluerov2_bridge.egg-info/SOURCES.txt'
+[1.992s] writing manifest file 'bluerov2_bridge.egg-info/SOURCES.txt'
+[2.013s] [  8%] Built target ament_cmake_python_build_bluerov2_bridge_egg
+[2.013s] [  8%] Built target ament_cmake_python_build_bluerov2_interface_egg
+[2.177s] [  8%] Built target bluerov2_interface__cpp
+[2.183s] [ 11%] [32mBuilding C object CMakeFiles/bluerov2_interface__rosidl_generator_c.dir/rosidl_generator_c/bluerov2_interface/srv/detail/set_mode__functions.c.o[0m
+[2.183s] [ 14%] [32mBuilding C object CMakeFiles/bluerov2_interface__rosidl_generator_c.dir/rosidl_generator_c/bluerov2_interface/srv/detail/set_mode__description.c.o[0m
+[2.183s] [ 17%] [32mBuilding C object CMakeFiles/bluerov2_interface__rosidl_generator_c.dir/rosidl_generator_c/bluerov2_interface/srv/detail/set_mode__type_support.c.o[0m
+[2.240s] [ 20%] [32m[1mLinking C shared library libbluerov2_interface__rosidl_generator_c.so[0m
+[2.265s] [ 20%] Built target bluerov2_interface__rosidl_generator_c
+[2.272s] [ 26%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.272s] [ 26%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.272s] [ 29%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.273s] [ 32%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.273s] [ 38%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.273s] [ 38%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.437s] [ 41%] [32mBuilding CXX object CMakeFiles/bluerov2_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/bluerov2_interface/srv/set_mode__type_support.cpp.o[0m
+[2.454s] [ 44%] [32mBuilding CXX object CMakeFiles/bluerov2_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/bluerov2_interface/srv/set_mode__type_support.cpp.o[0m
+[2.470s] [ 47%] [32mBuilding C object CMakeFiles/bluerov2_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/bluerov2_interface/srv/detail/set_mode__type_support.c.o[0m
+[2.484s] [ 50%] [32m[1mLinking CXX shared library libbluerov2_interface__rosidl_typesupport_c.so[0m
+[2.490s] [ 52%] [32mBuilding CXX object CMakeFiles/bluerov2_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/bluerov2_interface/srv/detail/set_mode__type_support.cpp.o[0m
+[2.491s] [ 55%] [32mBuilding CXX object CMakeFiles/bluerov2_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/bluerov2_interface/srv/detail/dds_fastrtps/set_mode__type_support.cpp.o[0m
+[2.507s] [ 58%] [32m[1mLinking C shared library libbluerov2_interface__rosidl_typesupport_introspection_c.so[0m
+[2.514s] [ 58%] Built target bluerov2_interface__rosidl_typesupport_c
+[2.514s] [ 61%] [32mBuilding CXX object CMakeFiles/bluerov2_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/bluerov2_interface/srv/detail/set_mode__type_support_c.cpp.o[0m
+[2.535s] [ 61%] Built target bluerov2_interface__rosidl_typesupport_introspection_c
+[2.719s] [ 64%] [32m[1mLinking CXX shared library libbluerov2_interface__rosidl_typesupport_cpp.so[0m
+[2.740s] [ 67%] [32m[1mLinking CXX shared library libbluerov2_interface__rosidl_typesupport_introspection_cpp.so[0m
+[2.776s] [ 67%] Built target bluerov2_interface__rosidl_typesupport_cpp
+[2.800s] [ 67%] Built target bluerov2_interface__rosidl_typesupport_introspection_cpp
+[2.813s] [ 70%] [32m[1mLinking CXX shared library libbluerov2_interface__rosidl_typesupport_fastrtps_c.so[0m
+[2.866s] [ 70%] Built target bluerov2_interface__rosidl_typesupport_fastrtps_c
+[2.893s] [ 73%] [32m[1mLinking CXX shared library libbluerov2_interface__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.945s] [ 73%] Built target bluerov2_interface__rosidl_typesupport_fastrtps_cpp
+[2.960s] [ 73%] Built target bluerov2_interface
+[2.976s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.241s] [ 76%] Built target bluerov2_interface__py
+[3.257s] [ 79%] [32mBuilding C object CMakeFiles/bluerov2_interface__rosidl_generator_py.dir/rosidl_generator_py/bluerov2_interface/srv/_set_mode_s.c.o[0m
+[3.362s] [ 82%] [32m[1mLinking C shared library libbluerov2_interface__rosidl_generator_py.so[0m
+[3.394s] [ 82%] Built target bluerov2_interface__rosidl_generator_py
+[3.412s] [ 85%] [32mBuilding C object CMakeFiles/bluerov2_interface_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/bluerov2_interface/_bluerov2_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.413s] [ 88%] [32mBuilding C object CMakeFiles/bluerov2_interface_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/bluerov2_interface/_bluerov2_interface_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.413s] [ 91%] [32mBuilding C object CMakeFiles/bluerov2_interface_s__rosidl_typesupport_c.dir/rosidl_generator_py/bluerov2_interface/_bluerov2_interface_s.ep.rosidl_typesupport_c.c.o[0m
+[3.478s] [ 94%] [32m[1mLinking C shared module rosidl_generator_py/bluerov2_interface/bluerov2_interface_s__rosidl_typesupport_fastrtps_c.so[0m
+[3.480s] [100%] [32m[1mLinking C shared module rosidl_generator_py/bluerov2_interface/bluerov2_interface_s__rosidl_typesupport_c.so[0m
+[3.481s] [100%] [32m[1mLinking C shared module rosidl_generator_py/bluerov2_interface/bluerov2_interface_s__rosidl_typesupport_introspection_c.so[0m
+[3.504s] [100%] Built target bluerov2_interface_s__rosidl_typesupport_fastrtps_c
+[3.504s] [100%] Built target bluerov2_interface_s__rosidl_typesupport_introspection_c
+[3.504s] [100%] Built target bluerov2_interface_s__rosidl_typesupport_c
+[3.513s] Invoked command in '/home/ju/Documents/BlueROV/bluerov2_interface/build/bluerov2_interface' returned '0': CMAKE_PREFIX_PATH=/home/ju/ros2_ws/install/ueye_cam:/home/ju/ros2_ws/install/cola2_stonefish:/home/ju/ros2_ws/install/stonefish_ros2:/opt/ros/jazzy:/home/ju/ros2_ws/install/cola2_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --build /home/ju/Documents/BlueROV/bluerov2_interface/build/bluerov2_interface -- -j22 -l22
+[3.521s] Invoking command in '/home/ju/Documents/BlueROV/bluerov2_interface/build/bluerov2_interface': CMAKE_PREFIX_PATH=/home/ju/ros2_ws/install/ueye_cam:/home/ju/ros2_ws/install/cola2_stonefish:/home/ju/ros2_ws/install/stonefish_ros2:/opt/ros/jazzy:/home/ju/ros2_ws/install/cola2_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --install /home/ju/Documents/BlueROV/bluerov2_interface/build/bluerov2_interface
+[3.527s] -- Install configuration: ""
+[3.528s] -- Execute custom install script
+[3.528s] -- Symlinking: /home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface/share/ament_index/resource_index/rosidl_interfaces/bluerov2_interface
+[3.533s] -- Symlinking: /home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface/share/bluerov2_interface/srv/SetMode.json
+[3.538s] -- Symlinking: /home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface/include/bluerov2_interface/bluerov2_interface/msg/rosidl_generator_c__visibility_control.h
+[3.546s] -- Symlinking: /home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface/include/bluerov2_interface/bluerov2_interface/srv/detail/set_mode__functions.h
+[3.551s] -- Symlinking: /home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface/include/bluerov2_interface/bluerov2_interface/srv/detail/set_mode__struct.h
+[3.557s] -- Symlinking: /home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface/include/bluerov2_interface/bluerov2_interface/srv/detail/set_mode__type_support.h
+[3.564s] -- Symlinking: /home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface/include/bluerov2_interface/bluerov2_interface/srv/set_mode.h
+[3.569s] -- Symlinking: /home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface/share/bluerov2_interface/environment/library_path.sh
+[3.577s] -- Symlinking: /home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface/share/bluerov2_interface/environment/library_path.dsv
+[3.584s] -- Symlinking: /home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface/include/bluerov2_interface/bluerov2_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.590s] -- Symlinking: /home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface/include/bluerov2_interface/bluerov2_interface/srv/detail/set_mode__rosidl_typesupport_fastrtps_c.h
+[3.597s] -- Symlinking: /home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface/include/bluerov2_interface/bluerov2_interface/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.603s] -- Symlinking: /home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface/include/bluerov2_interface/bluerov2_interface/srv/detail/set_mode__builder.hpp
+[3.611s] -- Symlinking: /home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface/include/bluerov2_interface/bluerov2_interface/srv/detail/set_mode__struct.hpp
+[3.616s] -- Symlinking: /home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface/include/bluerov2_interface/bluerov2_interface/srv/detail/set_mode__traits.hpp
+[3.622s] -- Symlinking: /home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface/include/bluerov2_interface/bluerov2_interface/srv/detail/set_mode__type_support.hpp
+[3.630s] -- Symlinking: /home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface/include/bluerov2_interface/bluerov2_interface/srv/set_mode.hpp
+[3.637s] -- Symlinking: /home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface/include/bluerov2_interface/bluerov2_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.643s] -- Symlinking: /home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface/include/bluerov2_interface/bluerov2_interface/srv/detail/set_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[3.650s] -- Symlinking: /home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface/include/bluerov2_interface/bluerov2_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.654s] -- Symlinking: /home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface/include/bluerov2_interface/bluerov2_interface/srv/detail/set_mode__rosidl_typesupport_introspection_c.h
+[3.660s] -- Symlinking: /home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface/include/bluerov2_interface/bluerov2_interface/srv/detail/set_mode__rosidl_typesupport_introspection_cpp.hpp
+[3.666s] -- Symlinking: /home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface/share/bluerov2_interface/environment/pythonpath.sh
+[3.673s] -- Symlinking: /home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface/share/bluerov2_interface/environment/pythonpath.dsv
+[3.679s] -- Symlinking: /home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface/lib/python3.12/site-packages/bluerov2_interface-0.0.0-py3.12.egg-info/PKG-INFO
+[3.683s] -- Symlinking: /home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface/lib/python3.12/site-packages/bluerov2_interface-0.0.0-py3.12.egg-info/SOURCES.txt
+[3.690s] -- Symlinking: /home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface/lib/python3.12/site-packages/bluerov2_interface-0.0.0-py3.12.egg-info/dependency_links.txt
+[3.695s] -- Symlinking: /home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface/lib/python3.12/site-packages/bluerov2_interface-0.0.0-py3.12.egg-info/top_level.txt
+[3.700s] -- Symlinking: /home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface/lib/python3.12/site-packages/bluerov2_interface/__init__.py
+[3.706s] -- Symlinking: /home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface/lib/python3.12/site-packages/bluerov2_interface/_bluerov2_interface_s.ep.rosidl_typesupport_c.c
+[3.711s] -- Symlinking: /home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface/lib/python3.12/site-packages/bluerov2_interface/_bluerov2_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.716s] -- Symlinking: /home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface/lib/python3.12/site-packages/bluerov2_interface/_bluerov2_interface_s.ep.rosidl_typesupport_introspection_c.c
+[3.722s] -- Symlinking: /home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface/lib/python3.12/site-packages/bluerov2_interface/bluerov2_interface_s__rosidl_typesupport_c.so
+[3.727s] -- Symlinking: /home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface/lib/python3.12/site-packages/bluerov2_interface/bluerov2_interface_s__rosidl_typesupport_fastrtps_c.so
+[3.734s] -- Symlinking: /home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface/lib/python3.12/site-packages/bluerov2_interface/bluerov2_interface_s__rosidl_typesupport_introspection_c.so
+[3.740s] -- Symlinking: /home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface/lib/python3.12/site-packages/bluerov2_interface/srv/__init__.py
+[3.747s] -- Symlinking: /home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface/lib/python3.12/site-packages/bluerov2_interface/srv/_set_mode.py
+[3.753s] -- Symlinking: /home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface/lib/python3.12/site-packages/bluerov2_interface/srv/_set_mode_s.c
+[3.759s] -- Up-to-date symlink: /home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface/lib/python3.12/site-packages/bluerov2_interface/bluerov2_interface_s__rosidl_typesupport_fastrtps_c.so
+[3.760s] -- Up-to-date symlink: /home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface/lib/python3.12/site-packages/bluerov2_interface/bluerov2_interface_s__rosidl_typesupport_introspection_c.so
+[3.760s] -- Up-to-date symlink: /home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface/lib/python3.12/site-packages/bluerov2_interface/bluerov2_interface_s__rosidl_typesupport_c.so
+[3.760s] -- Symlinking: /home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface/share/bluerov2_interface/srv/SetMode.idl
+[3.766s] -- Symlinking: /home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface/share/bluerov2_interface/srv/SetMode.srv
+[3.772s] -- Symlinking: /home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface/lib/python3.12/site-packages/bluerov2_bridge-0.0.0-py3.12.egg-info/PKG-INFO
+[3.779s] -- Symlinking: /home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface/lib/python3.12/site-packages/bluerov2_bridge-0.0.0-py3.12.egg-info/SOURCES.txt
+[3.784s] -- Symlinking: /home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface/lib/python3.12/site-packages/bluerov2_bridge-0.0.0-py3.12.egg-info/dependency_links.txt
+[3.791s] -- Symlinking: /home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface/lib/python3.12/site-packages/bluerov2_bridge-0.0.0-py3.12.egg-info/top_level.txt
+[3.796s] -- Symlinking: /home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface/lib/python3.12/site-packages/bluerov2_bridge/__init__.py
+[3.802s] -- Symlinking: /home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface/lib/python3.12/site-packages/bluerov2_bridge/bridge.py
+[3.809s] -- Symlinking: /home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface/lib/python3.12/site-packages/bluerov2_bridge/publishers.py
+[3.814s] -- Symlinking: /home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface/lib/python3.12/site-packages/bluerov2_bridge/services.py
+[3.820s] -- Symlinking: /home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface/lib/python3.12/site-packages/bluerov2_bridge/subscribers.py
+[3.825s] -- Symlinking: /home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface/lib/bluerov2_interface/node.py
+[3.831s] -- Symlinking: /home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface/lib/bluerov2_interface/teleop.py
+[3.837s] -- Symlinking: /home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface/share/bluerov2_interface//launch/bluerov2_launch.xml
+[3.842s] -- Symlinking: /home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface/share/ament_index/resource_index/package_run_dependencies/bluerov2_interface
+[3.849s] -- Symlinking: /home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface/share/ament_index/resource_index/parent_prefix_path/bluerov2_interface
+[3.855s] -- Symlinking: /home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface/share/bluerov2_interface/environment/ament_prefix_path.sh
+[3.862s] -- Symlinking: /home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface/share/bluerov2_interface/environment/ament_prefix_path.dsv
+[3.869s] -- Symlinking: /home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface/share/bluerov2_interface/environment/path.sh
+[3.876s] -- Symlinking: /home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface/share/bluerov2_interface/environment/path.dsv
+[3.881s] -- Symlinking: /home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface/share/bluerov2_interface/local_setup.bash
+[3.888s] -- Symlinking: /home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface/share/bluerov2_interface/local_setup.sh
+[3.893s] -- Symlinking: /home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface/share/bluerov2_interface/local_setup.zsh
+[3.899s] -- Symlinking: /home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface/share/bluerov2_interface/local_setup.dsv
+[3.904s] -- Symlinking: /home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface/share/bluerov2_interface/package.dsv
+[3.911s] -- Symlinking: /home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface/share/ament_index/resource_index/packages/bluerov2_interface
+[3.915s] -- Symlinking: /home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface/share/bluerov2_interface/cmake/rosidl_cmake-extras.cmake
+[3.921s] -- Symlinking: /home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface/share/bluerov2_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.926s] -- Symlinking: /home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface/share/bluerov2_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.932s] -- Symlinking: /home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface/share/bluerov2_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[3.937s] -- Symlinking: /home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface/share/bluerov2_interface/cmake/ament_cmake_export_targets-extras.cmake
+[3.943s] -- Symlinking: /home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface/share/bluerov2_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.949s] -- Symlinking: /home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface/share/bluerov2_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.954s] -- Symlinking: /home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface/share/bluerov2_interface/cmake/bluerov2_interfaceConfig.cmake
+[3.961s] -- Symlinking: /home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface/share/bluerov2_interface/cmake/bluerov2_interfaceConfig-version.cmake
+[3.967s] -- Symlinking: /home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface/share/bluerov2_interface/package.xml
+[3.973s] -- Set non-toolchain portion of runtime path of "/home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface/lib/libbluerov2_interface__rosidl_generator_c.so" to ""
+[3.974s] -- Set non-toolchain portion of runtime path of "/home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface/lib/libbluerov2_interface__rosidl_typesupport_fastrtps_c.so" to ""
+[3.974s] -- Set non-toolchain portion of runtime path of "/home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface/lib/libbluerov2_interface__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.974s] -- Set non-toolchain portion of runtime path of "/home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface/lib/libbluerov2_interface__rosidl_typesupport_introspection_c.so" to ""
+[3.974s] -- Set non-toolchain portion of runtime path of "/home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface/lib/libbluerov2_interface__rosidl_typesupport_c.so" to ""
+[3.975s] -- Set non-toolchain portion of runtime path of "/home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface/lib/libbluerov2_interface__rosidl_typesupport_introspection_cpp.so" to ""
+[3.975s] -- Set non-toolchain portion of runtime path of "/home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface/lib/libbluerov2_interface__rosidl_typesupport_cpp.so" to ""
+[3.998s] Listing '/home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface/lib/python3.12/site-packages/bluerov2_interface'...
+[3.998s] Compiling '/home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface/lib/python3.12/site-packages/bluerov2_interface/__init__.py'...
+[3.999s] Listing '/home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface/lib/python3.12/site-packages/bluerov2_interface/srv'...
+[3.999s] Compiling '/home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface/lib/python3.12/site-packages/bluerov2_interface/srv/__init__.py'...
+[3.999s] Compiling '/home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface/lib/python3.12/site-packages/bluerov2_interface/srv/_set_mode.py'...
+[4.002s] -- Set non-toolchain portion of runtime path of "/home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface/lib/libbluerov2_interface__rosidl_generator_py.so" to ""
+[4.031s] Listing '/home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface/lib/python3.12/site-packages/bluerov2_bridge'...
+[4.031s] Compiling '/home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface/lib/python3.12/site-packages/bluerov2_bridge/__init__.py'...
+[4.031s] Compiling '/home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface/lib/python3.12/site-packages/bluerov2_bridge/bridge.py'...
+[4.031s] Compiling '/home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface/lib/python3.12/site-packages/bluerov2_bridge/publishers.py'...
+[4.031s] Compiling '/home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface/lib/python3.12/site-packages/bluerov2_bridge/services.py'...
+[4.031s] Compiling '/home/ju/Documents/BlueROV/bluerov2_interface/install/bluerov2_interface/lib/python3.12/site-packages/bluerov2_bridge/subscribers.py'...
+[4.037s] Invoked command in '/home/ju/Documents/BlueROV/bluerov2_interface/build/bluerov2_interface' returned '0': CMAKE_PREFIX_PATH=/home/ju/ros2_ws/install/ueye_cam:/home/ju/ros2_ws/install/cola2_stonefish:/home/ju/ros2_ws/install/stonefish_ros2:/opt/ros/jazzy:/home/ju/ros2_ws/install/cola2_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --install /home/ju/Documents/BlueROV/bluerov2_interface/build/bluerov2_interface

@@ -84,7 +84,8 @@ def main(args=None):
     rclpy.init(args=args)
 
     bluerov = Bluerov2(
-        node_name="bluerov2_interface", device="udp:127.0.0.1:14550", baudrate=115200
+        # node_name="bluerov2_interface", device="udp:127.0.0.1:14550", baudrate=115200
+        node_name="bluerov2_interface", device="udp:192.168.2.1:14550", baudrate=115200
     )
 
     # Using signal handler to shutdown thrusters. NOTE: shutdown hooks seems to missing from ROS2
