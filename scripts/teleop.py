@@ -122,9 +122,11 @@ class Teleop(Node, ClientProxies):
         # Handling Joy Axes
         pwm_msg = UInt16MultiArray()
         pwm_msg.data = [65535 for _ in range(16)]
-        pwm_msg.data[0] = self.calc_pwm(-msg.axes[axID("DY")])  # Pitch
-        pwm_msg.data[1] = self.calc_pwm(-msg.axes[axID("DX")])  # Roll
-        pwm_msg.data[2] = self.calc_pwm(msg.axes[axID("RY")])  # throttle
+        # pwm_msg.data[0] = self.calc_pwm(-msg.axes[axID("DY")])  # Pitch FIXME check sign?
+        # pwm_msg.data[1] = self.calc_pwm(-msg.axes[axID("DX")])  # Roll FIXME check sign?
+        pwm_msg.data[0] = self.calc_pwm(0)  # Pitch not controllable in manual mode
+        pwm_msg.data[1] = self.calc_pwm(0)  # Roll not controllable in manual mode
+        pwm_msg.data[2] = self.calc_pwm(msg.axes[axID("RY")])  # Throttle
         pwm_msg.data[3] = self.calc_pwm(-msg.axes[axID("RX")])  # Yaw
         pwm_msg.data[4] = self.calc_pwm(msg.axes[axID("LY")])  # Forward
         pwm_msg.data[5] = self.calc_pwm(-msg.axes[axID("LX")])  # Lateral
